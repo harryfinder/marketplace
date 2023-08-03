@@ -1,0 +1,16 @@
+{
+  "name": "marketplace",
+  "database": {
+    "host": "localhost",
+    "port": 5433,
+    "user": "postgres",
+    "pass": "postgres",
+    "name": "marketplace"
+  },
+  "app": {
+    "name": "marketplace",
+    "port": ":3000",
+    "baseAddress": "/api/marketplace/",
+    "version": "v0"
+  }
+}
